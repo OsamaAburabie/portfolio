@@ -1,0 +1,48 @@
+.homePage {
+  padding: 1.5rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.contactButton {
+  text-decoration: none;
+  background: #1f2428;
+  color: #fff;
+  font-weight: bold;
+  margin: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 5px solid #fff;
+}
+
+.contactButton:hover {
+  background: #272c30;
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+li {
+  display: block;
+  white-space: nowrap;
+  color: lightcoral;
+}
+li:before {
+  content: counter(item) '  ';
+  counter-increment: item;
+  margin-right: 1rem;
+  color: grey;
+}
+
+li > span {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+span > a {
+  text-decoration: none;
+  color: grey;
+}

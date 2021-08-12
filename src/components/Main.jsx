@@ -8,7 +8,9 @@ const Main = ({ children }) => {
       <Sidebar />
       <section className='w-[calc(100%-3rem)] md:w-[calc(100%-20rem)] bg-red-[7rem]0 flex flex-col justify-between'>
         <Topbar />
-        <div className='bg-secondary h-full w-full'>{children}</div>
+        <div className='bg-secondary h-full w-full p-4 overflow-auto'>
+          {children}
+        </div>
       </section>
     </main>
   );

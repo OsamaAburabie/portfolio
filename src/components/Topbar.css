@@ -36,3 +36,7 @@
 .top-file-close:hover {
   background: #262b30;
 }
+
+.topbar::-webkit-scrollbar {
+  display: none;
+}

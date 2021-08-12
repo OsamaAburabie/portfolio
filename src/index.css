@@ -63,3 +63,26 @@
     @apply w-11/12 mx-auto;
   }
 }
+/* width */
+::-webkit-scrollbar {
+  width: 1rem !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #373c41;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
