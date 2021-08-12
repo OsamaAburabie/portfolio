@@ -1,0 +1,74 @@
+.header {
+  height: 1.8rem;
+  width: 100vw;
+  background: #1f2428;
+  padding: 0rem 0.2rem 0rem 0.7rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-bottom: 1px solid #111;
+}
+
+.Logo {
+  object-fit: contain;
+  height: 1.2rem;
+  margin-right: 0.3rem;
+}
+.header__left {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  height: 100%;
+}
+
+.header__left > p {
+  padding: 0.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.header__left > p:hover {
+  background: #454c53;
+}
+
+.header__center {
+  flex: 0.6;
+  text-align: center;
+}
+.header__right {
+  flex: 0.2;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+.header__button {
+  height: 1.1rem;
+  width: 1.1rem;
+  border-radius: 50%;
+  margin: 0.3rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.header__button:hover {
+  background: #292e33;
+}
+.red {
+  background: #f65354;
+}
+.red:hover {
+  background: #ee2121;
+}
+
+.green {
+  background: #65ec7b;
+}
+.yellow {
+  background: #f0f38b;
+}
+.header__icons {
+  font-size: 1rem !important;
+}

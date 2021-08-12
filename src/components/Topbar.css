@@ -1,0 +1,38 @@
+.top-file {
+  /* padding: 0.7rem 0.1rem 0.7rem 0.7rem; */
+  display: flex;
+  align-items: center;
+  color: lightgray;
+  /* background: #1f2428; */
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-file > img {
+  object-fit: contain;
+  height: 1.2rem;
+  margin-right: 0.2rem;
+}
+.active-top-bar {
+  border-bottom: #9392a0 2px solid;
+  /* background: #24292e; */
+}
+.active-top-bar .top-file-close {
+  visibility: visible;
+}
+
+.top-file-close {
+  margin-left: 0.3rem;
+  border-radius: 20%;
+  visibility: hidden;
+}
+.top-file:hover > .top-file-close {
+  visibility: visible;
+}
+.visible {
+  visibility: visible;
+}
+.top-file-close:hover {
+  background: #262b30;
+}

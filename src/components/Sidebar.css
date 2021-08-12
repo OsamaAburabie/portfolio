@@ -1,0 +1,56 @@
+.side-active {
+  fill: #fff;
+}
+
+.explorer__header {
+  font-size: 1rem;
+  color: lightgray;
+  margin-bottom: 1rem;
+  padding: 0 0.7rem;
+}
+.explorer__folder {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.explorer__folder > p {
+  margin-left: 0.3rem;
+}
+
+.rotate-90deg {
+  transform: rotate(90deg);
+  transition: transform 0.2s;
+}
+
+.hide-files {
+  display: none;
+}
+
+.file {
+  padding: 0.2rem 0.2rem;
+  display: flex;
+  align-items: center;
+  color: lightgray;
+  font-size: 0.975rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.file:hover {
+  color: #fff;
+}
+.file > img {
+  object-fit: contain;
+  height: 1.2rem;
+  margin-right: 0.2rem;
+}
+.active-file {
+  color: gold;
+}
+.active-file:hover {
+  color: gold;
+}
