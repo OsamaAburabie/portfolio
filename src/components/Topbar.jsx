@@ -20,17 +20,23 @@ const Topbar = () => {
               key={item.id}
               to={item.to}
               exact={item.exact}
-              className='top-file bg-primary px-4 md:px-2'
-              activeClassName='bg-secondary border-active border-b-2 '
+              className='top-file bg-primary pr-2 pl-1 flex items-center justify-start text-white'
+              activeClassName='active-top-bar bg-secondary border-active border-b-2 '
             >
-              <img src={item.ico} alt={item.text} />
-              <p>{item.text}</p>
-              <CloseIcon
-                onClick={() => {
-                  closeTab(item.id);
-                }}
-                className='top-file-close'
+              <img
+                className=' object-contain h-[1.2rem] '
+                src={item.ico}
+                alt={item.text}
               />
+              <p>{item.text}</p>
+              <div className='w-[2.5rem] flex justify-end top-file-close'>
+                <CloseIcon
+                  onClick={() => {
+                    closeTab(item.id);
+                  }}
+                  className=''
+                />
+              </div>
             </NavLink>
           );
         })}

@@ -23,7 +23,6 @@
 ol {
   counter-reset: item;
   list-style-type: none;
-  font-size: 1.2rem;
 }
 li {
   display: block;
@@ -39,7 +38,6 @@ li:before {
 
 li > span {
   color: #fff;
-  font-size: 1.1rem;
 }
 
 span > a {
