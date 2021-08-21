@@ -21,7 +21,10 @@ const MainContextProvider = (props) => {
     },
   ];
 
-  const [topBarItems, setTopBarItems] = useState(barItems);
+  const [topBarItems, setTopBarItems] = useState([
+    { id: 3, to: '/contact', text: 'Contact.css', ico: CssLogo, exact: false },
+    { id: 1, to: '/', text: 'Home.html', ico: HtmlLogo, exact: true },
+  ]);
 
   //you can use funtion
   return (

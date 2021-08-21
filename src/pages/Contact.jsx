@@ -30,7 +30,7 @@ const Contact = () => {
   };
   return (
     <Main>
-      <div className='bg-secondary h-full w-full  overflow-auto '>
+      <div className='bg-secondary h-full w-full  overflow-hidden '>
         <div className='contactPage overflow-x-auto p-4 '>
           <ol className='contact__list text-[0.8rem] md:text-[1.2rem]'>
             {/* eslint-disable-next-line */}
@@ -125,7 +125,7 @@ const Contact = () => {
           </ol>
         </div>
         {/* =================================================================================== */}
-        <div className='terminal w-full text-white'>
+        <div className='terminal  text-white'>
           <div className='terminal__header'>
             <div className='terminal__header__left '>
               <div className='text-[0.6rem] md:text-[0.81rem]'>problems</div>
