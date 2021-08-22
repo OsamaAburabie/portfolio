@@ -6,7 +6,7 @@ import MinimizeIcon from '@material-ui/icons/Minimize';
 import './Header.css';
 const Nav = () => {
   return (
-    <nav className='bg-primary w-full h-[2rem] flex items-center pl-[0.7rem] pr-[0.2rem] text-white border-b-[1px] border-border'>
+    <nav className='bg-primary w-full h-[2rem] flex items-center pl-[0.7rem] pr-[0.2rem] text-white border-b-[1px] border-border select-none'>
       <div className='md:flex flex-grow-0 hidden '>
         <img src={Logo} alt='vscode-logo' className='Logo' />
         <p className='mr-2 hover:bg-secondary hover:cursor-pointer'>File</p>

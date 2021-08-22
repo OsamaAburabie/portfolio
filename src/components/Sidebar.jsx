@@ -34,7 +34,7 @@ const Sidebar = () => {
     <>
       <div
         id='first-bar'
-        className='h-full w-[3rem] md:w-[4rem] bg-secondary flex flex-col justify-between border-r-[1px] border-border'
+        className='h-full w-[3rem] md:w-[4rem] bg-secondary flex flex-col justify-between border-r-[1px] border-border select-none'
       >
         <div className='flex flex-col '>
           <NavLink
@@ -45,8 +45,8 @@ const Sidebar = () => {
             onClick={toggleExplorer}
           >
             <svg
-              width='35'
-              height='35'
+              width='32'
+              height='32'
               viewBox='0 0 24 24'
               xmlns='http://www.w3.org/2000/svg'
             >
@@ -60,8 +60,8 @@ const Sidebar = () => {
             activeClassName='border-l-2 border-active side-active fill-current text-green'
           >
             <svg
-              width='35'
-              height='35'
+              width='32'
+              height='32'
               viewBox='0 0 16 16'
               xmlns='http://www.w3.org/2000/svg'
             >
@@ -74,8 +74,8 @@ const Sidebar = () => {
             activeClassName='border-l-2 border-active side-active side-active'
           >
             <svg
-              width='35'
-              height='35'
+              width='32'
+              height='32'
               viewBox='0 0 16 16'
               xmlns='http://www.w3.org/2000/svg'
             >
@@ -89,8 +89,8 @@ const Sidebar = () => {
             className='w-[3rem] md:w-[4rem]  h-[3rem] md:h-[4rem] grid place-items-center  hover:bg-primary fill-current text-[#968F8F]'
           >
             <svg
-              width='35'
-              height='35'
+              width='32'
+              height='32'
               viewBox='0 0 16 16'
               xmlns='http://www.w3.org/2000/svg'
             >
@@ -102,8 +102,8 @@ const Sidebar = () => {
             className='w-[3rem] md:w-[4rem]  h-[3rem] md:h-[4rem] grid place-items-center  hover:bg-primary fill-current text-[#968F8F]'
           >
             <svg
-              width='35'
-              height='35'
+              width='32'
+              height='32'
               viewBox='0 0 24 24'
               xmlns='http://www.w3.org/2000/svg'
             >
@@ -114,7 +114,7 @@ const Sidebar = () => {
       </div>
       <div
         id='second-bar'
-        className='h-full w-[16rem] bg-primary hidden md:flex flex-col items-start border-r-[1px] border-border p-[0.5rem] '
+        className='h-full w-[16rem] bg-primary hidden md:flex flex-col items-start border-r-[1px] border-border p-[0.5rem] select-none '
       >
         <div className='explorer__header'>EXPLORER</div>
         <label onClick={() => setIsOpen(!isOpen)} className='explorer__folder'>

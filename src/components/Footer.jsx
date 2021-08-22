@@ -2,7 +2,7 @@ import React from 'react';
 // import './Footer.css';
 const Footer = () => {
   return (
-    <footer className='bg-primary w-full h-[1.7rem] border-t-[1px] border-border flex justify-between items-center text-white px-[0.7rem]'>
+    <footer className='bg-primary w-full h-[1.7rem] border-t-[1px] border-border flex justify-between items-center text-white px-[0.7rem] select-none'>
       <div className='flex justify-center'>
         <div className='flex items-center text-[0.8rem]'>
           <svg

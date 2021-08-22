@@ -11,7 +11,7 @@ const Topbar = () => {
     setTopBarItems(topBarItems.filter((item) => item.id !== id));
   };
   return (
-    <div className='h-[2rem] w-full bg-primary flex justify-start overflow-x-auto topbar'>
+    <div className='h-[2rem] w-full bg-primary flex justify-start overflow-x-auto topbar select-none'>
       {/* <div className='w-full bg-blue-600 '> */}
       {topBarItems &&
         topBarItems.map((item) => {
